@@ -1,10 +1,10 @@
-import { Text, View } from "react-native";
+import { View, Text } from "react-native";
 import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
 import { styled } from "nativewind";
 
-const SafeAreaView = styled(RNSafeAreaView)
+const SafeAreaView = styled(RNSafeAreaView);
 
-export default function Index() {
+const Subscriptions = () => {
   return (
     <SafeAreaView className="flex-1 bg-background p-5">
       <View
@@ -20,4 +20,6 @@ export default function Index() {
       </View>
     </SafeAreaView>
   );
-}
+};
+
+export default Subscriptions;
